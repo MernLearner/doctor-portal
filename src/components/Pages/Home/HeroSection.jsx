@@ -5,7 +5,7 @@ import HeroImg from '../../../assets/chair.png'
 const HeroSection = () => {
     return (
         <div>
-            <div className="hero min-h-screen border-b">
+            <div className="hero min-h-screen ">
                 <div className="hero-content flex-col  lg:flex-row-reverse ">
                     <img src={HeroImg} alt={HeroImg} className="max-w-md rounded-lg shadow-2xl " />
                     <div >
