@@ -1,12 +1,22 @@
 import React from 'react';
+import SectionDivider from '../../Shared/SectionDivider';
+import Appointment from './Appointment';
+import DentalCare from './DentalCare';
 import HeroBottom from './HeroBottom';
 import HeroSection from './HeroSection';
+import ServiceSection from './ServiceSection';
 
 const Home = () => {
     return (
-        <div>
+        <div className='px-12'>
             <HeroSection></HeroSection>
             <HeroBottom></HeroBottom>
+            <SectionDivider></SectionDivider>
+            <ServiceSection ></ServiceSection>
+            <SectionDivider></SectionDivider>
+            <DentalCare></DentalCare>
+            <SectionDivider></SectionDivider>
+            <Appointment></Appointment>
         </div>
     );
 };
