@@ -10,6 +10,7 @@ const Home = () => {
     return (
         <div className='px-12'>
             <HeroSection></HeroSection>
+            <SectionDivider></SectionDivider>
             <HeroBottom></HeroBottom>
             <SectionDivider></SectionDivider>
             <ServiceSection ></ServiceSection>
