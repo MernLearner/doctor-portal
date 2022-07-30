@@ -12,7 +12,7 @@ import NoteFound from './components/Shared/NoteFound';
 
 function App() {
   return (
-    <div className="App ">
+    <div className=" ">
       <Navbar></Navbar>
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>

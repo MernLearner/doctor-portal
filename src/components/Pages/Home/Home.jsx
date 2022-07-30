@@ -18,6 +18,7 @@ const Home = () => {
             <DentalCare></DentalCare>
             <SectionDivider></SectionDivider>
             <Appointment></Appointment>
+            <SectionDivider></SectionDivider>
         </div>
     );
 };
