@@ -5,6 +5,7 @@ import DentalCare from './DentalCare';
 import HeroBottom from './HeroBottom';
 import HeroSection from './HeroSection';
 import ServiceSection from './ServiceSection';
+import Testimonial from './Testimonial';
 
 const Home = () => {
     return (
@@ -18,6 +19,8 @@ const Home = () => {
             <DentalCare></DentalCare>
             <SectionDivider></SectionDivider>
             <Appointment></Appointment>
+            <SectionDivider></SectionDivider>
+            <Testimonial></Testimonial>
             <SectionDivider></SectionDivider>
         </div>
     );
