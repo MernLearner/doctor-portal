@@ -7,8 +7,8 @@ import About from './components/Pages/About/About';
 import Appointment from './components/Pages/Appointment/Appointment';
 import Reviews from './components/Pages/Reviews/Reviews';
 import ContactUs from './components/Pages/ContactUs/ContactUs';
-import Login from './components/Shared/Login';
 import NoteFound from './components/Shared/NoteFound';
+import Login from './components/Pages/Login/Login';
 
 function App() {
   return (

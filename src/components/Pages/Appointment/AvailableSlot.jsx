@@ -6,7 +6,7 @@ const AvailableSlot = ({date}) => {
     const [serviceTimeSlot, setServiceTimeSlot] = useState([]);
     const [handleModal,setHandleModal] = useState(null);
     useEffect(() => {
-        fetch('serviceSlote.json')
+        fetch('http://localhost:5000/serviceslot')
             .then(res => res.json())
             .then(data => setServiceTimeSlot(data))
     }, []);
